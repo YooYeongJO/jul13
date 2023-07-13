@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+table {
+ 	margin: 0 auto; 
+ 	/* o auto => 가운데 정렬 */
+	width: 800px;
+	height: 500px;
+	border-collapse: collapse; 
+/* 	셀하고 셀 사이에 공백 제거 */
+}
+th {
+	height: 30px;
+	background-color: #D4F4FA;
+}
+td {
+	text-align: center;
+	border-bottom: 1px solid red;
+	/* 빨간 밑줄 선 */
+}
+
+#td1 {
+	width: 10%;
+/* 왼쪽 "td1"이 3개라 30% 가져감 */
+}
+
+#td2 {
+	width: 20%;
+/* 왼쪽 "td1"이 1개라 20% 가져감  */
+/* 나머지 50%는 row.btitle이 50% 가져감 */
+}
+
+.title{
+	text-align: left; 
+	/* 	왼쪽 정렬 */
+}
+
+tr:hover { 
+/* 	td 한셀만 변경  */
+/* tr은 한줄 변경  */
+	background-color: #EAEAEA;
+}
+	
